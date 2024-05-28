@@ -1,0 +1,1152 @@
+body {
+  margin: 0;
+}
+
+.slide {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.container1 {
+  position: absolute;
+  top: 160%;
+}
+
+.slideUp {
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.heading {
+  position: relative;
+  left: 60%;
+  color: rgb(72, 117, 4);
+}
+
+.card {
+  width: 25rem;
+  position: relative;
+  left: 70%;
+}
+
+
+
+.green {
+  position: absolute;
+  top: 220%;
+  left: -15%;
+}
+
+.slideup {
+  animation: slideUp 2s ease-in-out;
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.green-heading {
+  color: rgb(72, 117, 4);
+  position: relative;
+  left: 30%;
+}
+
+/*ABOUT PAGE CSS*/
+.about {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  background: rgba(163, 197, 177, 0.51);
+
+}
+
+.about-content {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.about-heading2 {
+
+  font-size: 15px;
+  color: grey;
+}
+
+.about-heading3 {
+
+  font-size: 55px;
+  position: relative;
+  color: rgb(104, 191, 42);
+  left: -10%;
+
+}
+
+.about-heading2 {
+  animation: slideUp 1s ease-in-out;
+}
+
+.about-heading3 {
+  animation: slideUp 1s ease-in-out;
+}
+
+.about {
+  animation: slideUp 3s ease-in-out;
+}
+
+.about-content,
+.about {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mission {
+  position: absolute;
+  top: 130%;
+  background-color: green;
+  width: 50%;
+  height: 40%;
+}
+
+.vision {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  background-color: lightgreen;
+  width: 50%;
+  height: 40%;
+}
+
+.mission-content {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+}
+
+.vision-content {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+
+.text {
+  font-size: 18px;
+  color: #fff;
+  font-family: sans-serif
+}
+
+.vision-text {
+  font-size: 20px;
+  color: #fff;
+  font-family: sans-serif
+}
+
+.head {
+  color: greenyellow;
+}
+
+.vision-head {
+  color: green;
+}
+
+.captain {
+  position: absolute;
+  top: 180%;
+  left: 10%;
+}
+
+.vice {
+  position: absolute;
+  top: 225%;
+  left: -15%;
+}
+
+/*Contact page*/
+
+.contact {
+  width: 70%;
+  height: 85%;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  background: whitesmoke;
+  border-radius: 22px;
+}
+
+.contact-heading {
+  position: relative;
+  top: 4%;
+  left: 4%;
+  color: rgb(72, 117, 4);
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: green;
+  position: relative;
+  top: 20px;
+}
+
+.contact-table {
+  position: relative;
+  top: -20%;
+  left: 10%;
+  border-collapse: separate;
+  border-spacing: 190px;
+
+}
+
+
+
+.email {
+  position: absolute;
+  top: 26%;
+  left: 25%;
+  font-size: 20px;
+}
+
+.location {
+  position: absolute;
+  top: 26%;
+  left: 45%;
+  font-size: 20px;
+}
+
+.location1 {
+  position: absolute;
+  top: 30%;
+  left: 44%;
+  font-size: 20px;
+}
+
+.phone {
+  position: absolute;
+  top: 26%;
+  left: 64%;
+  font-size: 20px;
+}
+
+.information {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.name {
+  width: 80%;
+  border: 1px solid #000;
+  background: rgba(163, 197, 177, 0.51);
+}
+
+.inputs {
+  border: none;
+  background-color: rgba(163, 197, 177, 0.11);
+
+}
+
+.info-head {
+  position: relative;
+  left: 5%;
+}
+
+.info-email {
+  width: 80%;
+  border: 1px solid #000;
+  background: rgba(163, 197, 177, 0.51);
+  position: absolute;
+  top: 130%;
+}
+
+.subject {
+  width: 80%;
+  border: 1px solid #000;
+  background: rgba(163, 197, 177, 0.51);
+  position: absolute;
+  top: 255%;
+}
+
+.message {
+  width: 220%;
+  border: 1px solid #000;
+  background: rgba(163, 197, 177, 0.51);
+  position: absolute;
+  top: 55%;
+  left: 140%;
+}
+
+
+.next {
+
+  position: absolute;
+  top: 170%;
+  left: 420%;
+}
+
+
+
+.got {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: rgb(130, 212, 7);
+
+}
+
+.share {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 35px;
+  color: rgb(9, 134, 9);
+}
+
+.got {
+  animation: slideUp 1s ease-in-out;
+}
+
+.share {
+  animation: slideUp 2s ease-in-out;
+}
+
+
+
+
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.departments {
+  position: absolute;
+  top: 195%;
+  left: -20%;
+}
+
+.other {
+  position: absolute;
+  top: 180%;
+  left: 10%;
+  color: rgb(130, 212, 7);
+  ;
+}
+
+.number {
+  position: relative;
+  top: -22%;
+  left: 10%;
+}
+
+.mail {
+  position: relative;
+  top: -22%;
+  left: 10%;
+}
+
+
+
+.slideUp {
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    /* Adjust the initial position */
+    opacity: 0;
+    /* Adjust the initial opacity */
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*Collecting Page*/
+
+.garbage-heading1 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: rgb(130, 212, 7);
+
+}
+
+.garbage-heading2 {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: rgb(9, 134, 9);
+}
+
+.garbage {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+.garbage-heading1 {
+  animation: slideUp 1s ease-in-out;
+}
+
+.garbage-heading2 {
+  animation: slideUp 2s ease-in-out;
+}
+
+/* Login page */
+.login-content {
+  background-image: url('../Images/cmc2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 30%;
+}
+
+.login {
+  width: 40%;
+  height: 60%;
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+
+}
+
+.login-heading2 {
+  position: relative;
+  top: 6%;
+  left: 7%;
+  font-size: 15px;
+}
+
+.form {
+  position: relative;
+  left: 4%;
+}
+
+.heading {
+  position: relative;
+  top: 5%;
+  left: 42%;
+}
+
+.form-label {
+  position: relative;
+  top: 15%;
+  left: 40%;
+}
+
+.form-control {
+  position: relative;
+  top: 17%;
+  left: 10%;
+}
+
+.nav-link {
+  position: relative;
+  left: 68%;
+}
+
+.btn {
+  position: relative;
+  top: 5%;
+  left: 44%;
+}
+
+.account {
+  position: relative;
+  top: 2%;
+  left: 30%;
+}
+
+/* Register page*/
+
+.register-content {
+  background-image: url('../Images/cmc2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 30%;
+}
+
+.register {
+  width: 50%;
+  height: 75%;
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 26%;
+
+}
+
+.register-heading1 {
+  position: relative;
+  top: 5%;
+  left: 27%;
+}
+
+.stage1 {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  border-collapse: separate;
+  border-spacing: 290px;
+
+}
+
+.stage-mail {
+  position: absolute;
+  top: 8%;
+  left: 200%;
+}
+
+.ffname {
+  position: relative;
+  top: 8%;
+  left: 1%;
+}
+
+.ffmail {
+  position: absolute;
+  top: 50%;
+  left: 200%;
+}
+.uname{
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  width:160%;
+}
+
+.stage2 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  border-collapse: separate;
+  border-spacing: 290px;
+
+}
+
+.stage3 {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  border-collapse: separate;
+  border-spacing: 290px;
+
+}
+.stage4 {
+  position: absolute;
+  top: 75%;
+  left: 38%;
+  border-collapse: separate;
+  border-spacing: 290px;
+
+}
+
+.register-submit {
+  position: absolute;
+  top: 95%;
+  left: 3%;
+}
+
+.sub{
+  position: relative;
+  left:190%;
+  top:-80%;
+}
+
+.cancel{
+  position: relative;
+  left:60vh;
+  top:-9vh;
+}
+
+.confirm{
+  position: absolute;
+  top:70%;
+  left:65%;
+}
+
+/*Stafflogin*/
+
+.staff-heading {
+  position: relative;
+  top: 5%;
+  left: 35%;
+  color: rgb(72, 117, 4);
+}
+
+/* GTF Welcome */
+
+.welcome {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 30%;
+  background: rgba(163, 197, 177, 0.51);
+
+}
+
+.gtf-content1 {
+  width: 65%;
+  height: 10%;
+  position: relative;
+  left: 18%;
+  top: 8%;
+  border: 6px solid #0D5214;
+  border-radius: 10px;
+
+}
+
+.gtf-heading1 {
+  position: relative;
+  top: 8%;
+  left: 20%;
+  color: rgb(72, 117, 4);
+}
+
+.gtf-content2 {
+  width: 80%;
+  height: 10%;
+  position: relative;
+  left: 12%;
+  top: 15%;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+.gtf-image {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  position: relative;
+  top: 20%;
+  left: 0.5%;
+}
+
+.gtf-heading2 {
+  position: relative;
+  top: -5vh;
+  left: 5%;
+  font-size: 25px;
+
+}
+
+.gtf-content3 {
+  width: 80%;
+  height: 10%;
+  position: relative;
+  left: 12%;
+  top: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+.gtf-heading3 {
+  position: relative;
+  top: 4vh;
+  left: 10%;
+}
+
+.instructions {
+  width: 50%;
+  height: 30%;
+  position: relative;
+  left: 26%;
+  top: 25%;
+  background-color: #fff;
+
+
+}
+
+.gtf-heading4 {
+  position: relative;
+  top: 5%;
+  left: 2%;
+}
+
+.gtf-list {
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.inst {
+  position: relative;
+  top: -5%;
+  left: 75%;
+}
+
+/* Rport incident*/
+
+.report-content {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 30%;
+  background: rgba(163, 197, 177, 0.51);
+}
+
+.incident {
+  width: 50%;
+  height: 70%;
+  position: relative;
+  left: 26%;
+  top: 15%;
+  background-color: #fff;
+}
+
+.incident-heading {
+  position: relative;
+  top: 2%;
+  left: 35%;
+  color: rgb(9, 134, 9);
+}
+
+.imageupload {
+  position: relative;
+  top: 4%;
+  left: 8%;
+}
+
+.image {
+  position: relative;
+  top: -4vh;
+  left: 10%;
+}
+
+.imageID {
+  position: relative;
+  top: 5%;
+  left: 8%;
+}
+
+.impact {
+  position: relative;
+  top: 10%;
+  left: 8%;
+}
+
+.explain {
+  position: relative;
+  top: 12%;
+  left: 12%;
+}
+
+.setLocation {
+  position: relative;
+  top: 20%;
+  left: 8%;
+}
+
+.report-location {
+  position: relative;
+  top: 14%;
+  left: 25%;
+}
+
+.buttons {
+  position: relative;
+  top: 25%;
+}
+
+.submit {
+  position: relative;
+  left: 20%;
+}
+
+.update {
+  position: relative;
+  left: 35%;
+}
+
+.delete {
+  position: relative;
+  left: 50%;
+}
+
+/* Forgot Password */
+
+.forgot-content {
+  background-image: url('../Images/cmc2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 30%;
+}
+
+.password-content {
+  width: 50%;
+  height: 60%;
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 26%;
+}
+
+.forgot-heading {
+  position: relative;
+  top: 2%;
+  left: 24%;
+  color: rgb(9, 134, 9);
+}
+
+.forgot-ID {
+  position: relative;
+  left: 2%;
+}
+
+.forgot-input {
+  position: relative;
+  left: 36%;
+}
+
+.forgot-new {
+  position: relative;
+  top: 8vh;
+  left: -25%;
+}
+
+.forgot-confirm {
+  position: relative;
+  top: -3vh;
+  left: 28%;
+}
+
+.forgot-submit {
+  position: relative;
+  left: 40%;
+  top: 8vh;
+}
+
+.forgot-cancel {
+  position: relative;
+  left: 45%;
+  top: 8vh;
+}
+
+/* Captain */
+
+.captain-content {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  position: absolute;
+  top: 30%;
+  background: rgba(163, 197, 177, 0.51);
+
+}
+
+.captain-cards {
+  position: relative;
+  top: 10%;
+  left: 20vh;
+}
+
+.captain-heading {
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  color: rgb(9, 134, 9);
+}
+
+.captain-reportincident {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 1000px;
+  height: 700px;
+  background-color: #fff;
+
+}
+
+.captain-container {
+  position: absolute;
+  top: 12%;
+  left: -10%;
+  width: 200px;
+  height: 800px;
+}
+
+.captain-btn {
+  position: relative;
+  left: -16vh;
+}
+
+/*Captain account*/
+
+
+
+.captain-account {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  position: absolute;
+  top: 30%;
+  background: rgba(163, 197, 177, 0.51);
+}
+
+
+.ca-content {
+  position: absolute;
+  top: 15%;
+  left: 6.5%;
+  width: 1250px;
+  height: 80%;
+
+}
+
+.ca-insertdata {
+  width: 50%;
+  height: 85%;
+  background-color: whitesmoke;
+  position: relative;
+  top: 5%;
+  left: 28%;
+  border: 1px solid black;
+}
+
+.ca-heading1 {
+  position: absolute;
+  top: 4%;
+  left: 35%;
+  color: rgb(9, 134, 9);
+}
+
+.ca-heading2 {
+  position: relative;
+  top: 2%;
+  left: 32%;
+  color: rgb(130, 212, 7);
+}
+
+.ca-stage1 {
+  position: relative;
+  left: 4%;
+}
+
+.ca-stage2 {
+  position: relative;
+  top: -10vh;
+  left: 65%;
+}
+
+.ca-stage3 {
+  position: relative;
+  top: -5vh;
+  left: 35%;
+}
+
+.ca-submit {
+  position: relative;
+  left: 20%;
+}
+
+.ca-update {
+  position: relative;
+  left: 33%;
+}
+
+.ca-submit {
+  position: relative;
+  left: 20%;
+}
+
+.ca-info {
+  position: absolute;
+  top: -2%;
+  left: 30%;
+}
+
+.ca-li2 {
+  position: relative;
+  top: 1%;
+}
+
+.ca-li3 {
+  position: relative;
+  top: 1%;
+}
+
+/* Staff account*/
+
+.ep-heading2 {
+  position: relative;
+  top: 2%;
+  left: 36%;
+  color: rgb(130, 212, 7);
+}
+
+/* Upload poster */
+
+.po-insertdata {
+  width: 50%;
+  height: 55%;
+  background-color: whitesmoke;
+  position: relative;
+  top: 5%;
+  left: 28%;
+  border: 1px solid black;
+}
+
+.po-upload {
+  position: relative;
+  top: 5vh;
+  left: 5%;
+}
+
+.po-buttons {
+  position: relative;
+  top: 10vh;
+}
+
+
+.po-heading1 {
+  position: absolute;
+  top: 4%;
+  left: 40%;
+  color: rgb(9, 134, 9);
+}
+
+
+.po-heading2 {
+  position: relative;
+  top: 2%;
+  left: 42%;
+  color: rgb(130, 212, 7);
+}
+
+/* Garbage Collecting spot*/
+
+.gc-insertdata {
+  width: 50%;
+  height: 55%;
+  background-color: whitesmoke;
+  position: relative;
+  top: 5%;
+  left: 28%;
+  border: 1px solid black;
+}
+
+
+.gc-heading1 {
+  position: absolute;
+  top: 4%;
+  left: 30%;
+  color: rgb(9, 134, 9);
+}
+
+.gc-heading2 {
+  position: relative;
+  top: 2%;
+  left: 18%;
+  color: rgb(130, 212, 7);
+}
+
+/* Garbage collectors*/
+
+.collectors-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  position: absolute;
+  top: 30%;
+  background: rgba(163, 197, 177, 0.51);
+}
+
+.collectors-spot {
+  width: 80%;
+  height: 75%;
+  background-color: #fff;
+  position: relative;
+  top: 15%;
+  left: 10%;
+
+}
+
+.collectors-heading {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  color: rgb(9, 134, 9);
+}
+
+.collectors-cards {
+  position: relative;
+  top: 10%;
+  left: 5%;
+}

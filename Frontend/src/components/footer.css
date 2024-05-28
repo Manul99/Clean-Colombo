@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: -190vh;
+    left: 0;
+    background-color: #0D5214;
+
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.th1,
+.th2,
+.th3 {
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.th2 {
+    position: relative;
+    left: 60%;
+
+}
+
+.th3 {
+    position: relative;
+    left: 100%;
+}
+
+td {
+    position: absolute;
+    top: 40%;
+    left: 2.4em;
+    color: whitesmoke;
+}
+
+small {
+    position: relative;
+    left: 25%;
+    color: whitesmoke;
+    top: 20%;
+}
+
+.icon {
+    margin-right: 30px;
+}
